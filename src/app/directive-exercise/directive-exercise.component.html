@@ -1,0 +1,13 @@
+<button class="btn btn-primary" (click)="displayText()">
+  Display Details
+</button>
+<p *ngIf="showText">Test</p>
+<p
+  *ngFor="let click of buttonClicks"
+  [ngStyle]="{
+    'background-color': click>= 5 ? 'blue' : 'white'
+  }"
+  [ngClass]="{ 'white-text': click>= 5 }"
+>
+  {{ click }}
+</p>

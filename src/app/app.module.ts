@@ -7,7 +7,7 @@ import { ServersComponent } from './servers/servers.component';
 import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 import { SuccessAlertComponent } from './success-alert/success-alert.component';
 import { FormsModule } from '@angular/forms';
-import { BindingTestComponent } from './binding-test/binding-test.component';
+import { DirectiveExerciseComponent } from './directive-exercise/directive-exercise.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +16,7 @@ import { BindingTestComponent } from './binding-test/binding-test.component';
     ServersComponent,
     WarningAlertComponent,
     SuccessAlertComponent,
-    BindingTestComponent,
+    DirectiveExerciseComponent,
   ],
   imports: [BrowserModule, FormsModule],
   providers: [],
